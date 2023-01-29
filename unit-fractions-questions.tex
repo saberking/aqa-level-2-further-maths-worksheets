@@ -70,6 +70,39 @@ a) \begin{tikzpicture}
 \draw [very thick, red, -stealth] (0,0)--(0,-1);
 \end{tikzpicture}
 \\
+\end{tabular}
+\newpage
+Write in the form $a\mathbf{i}+b\mathbf{j}$:
+\newline
+\newline
+\begin{tabular}{p{9cm}p{9cm}}
+a) \begin{tikzpicture}
+\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
+\draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
+\draw[thick] (-4,0)--(4,0);
+\draw[thick] (0,7)--(0,-7);
+\foreach \x in {-3,...,3}{
+  \node at (\x,-0.5)  {\small{\x}};
+}
+\foreach \y in {-6,...,6}{
+  \node at (-0.5,\y)  {\small{\y}};
+}
+\draw [very thick, red, -stealth] (0,0)--(3,4);
+\end{tikzpicture}
+&b) \begin{tikzpicture}
+\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
+\draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
+\draw[thick] (-4,0)--(4,0);
+\draw[thick] (0,7)--(0,-7);
+\foreach \x in {-3,...,3}{
+  \node at (\x,-0.5)  {\small{\x}};
+}
+\foreach \y in {-6,...,6}{
+  \node at (-0.5,\y)  {\small{\y}};
+}
+\draw [very thick, red, -stealth] (0,0)--(-2,-5);
+\end{tikzpicture}
+\\
 
 \end{tabular}
 \end{document}
