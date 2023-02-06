@@ -19,8 +19,7 @@ Rotation of 90 degrees clockwise followed by reflection in the $y$-axis followed
 @Work out the single transformation equivalent to reflection in $y$-axis followed by rotation 45 degrees anti-clockwise
 *
 \begin{tikzpicture}
-\draw[thin, step=0.2cm,color=lightgray] (-8,-6) grid (8,6);
-\draw[thin, step=2cm,color=gray] (-8,-6) grid (8,6);
+\draw[step=2cm,color=gray] (-8,-6) grid (8,6);
 \draw[thick] (-8,0)--(8,0);
 \draw[thick] (0,6)--(0,-6);
 \foreach \x in {-4,...,4}{
@@ -35,8 +34,7 @@ $answer$
 @Work out the single transformation equivalent to rotation 180 degrees about the origin followed by reflection in $x$-axis 
 *
 \begin{tikzpicture}
-\draw[thin, step=0.2cm,color=lightgray] (-8,-6) grid (8,6);
-\draw[thin, step=2cm,color=gray] (-8,-6) grid (8,6);
+\draw[step=2cm,color=gray] (-8,-6) grid (8,6);
 \draw[thick] (-8,0)--(8,0);
 \draw[thick] (0,6)--(0,-6);
 \foreach \x in {-4,...,4}{

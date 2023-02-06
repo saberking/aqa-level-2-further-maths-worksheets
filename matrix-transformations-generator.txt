@@ -2,7 +2,6 @@
 @Reflect the vector in the line $y=x$:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -18,7 +17,6 @@
 $answer$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -35,7 +33,6 @@ $answer$
 @Reflect the vector in the $x$-axis:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -51,7 +48,6 @@ $answer$
 $answer$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -68,7 +64,6 @@ $answer$
 @Reflect the vector in the $y$-axis:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -84,7 +79,6 @@ $answer$
 $answer$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -101,8 +95,7 @@ $answer$
 @Rotate the vector 90 degrees anti-clockwise:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
-\draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
+\draw[step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
 \foreach \x in {-3,...,3}{
@@ -117,7 +110,6 @@ $answer$
 $answer$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -207,8 +199,7 @@ Stretching by scale factor 2 along the x-axis
 @Work out the transformation matrix for a rotation of $\theta$ degrees anti-clockwise about the origin:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.2cm,color=lightgray] (-8,-6) grid (8,6);
-\draw[thin, step=2cm,color=gray] (-8,-6) grid (8,6);
+\draw[step=2cm,color=gray] (-8,-6) grid (8,6);
 \draw[thick] (-8,0)--(8,0);
 \draw[thick] (0,6)--(0,-6);
 \foreach \x in {-4,...,4}{

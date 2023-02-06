@@ -2,8 +2,7 @@
 @Write in the form $a\mathbf{i}+b\mathbf{j}$:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
-\draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
+\draw[step=1cm,color=black] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
 \foreach \x in {-3,...,3}{
@@ -18,7 +17,6 @@
 $\mathbf{i}$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -35,7 +33,6 @@ $\mathbf{j}$
 @Write in the form $a\mathbf{i}+b\mathbf{j}$:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -51,7 +48,6 @@ $\mathbf{j}$
 $-\mathbf{i}$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -68,7 +64,6 @@ $-\mathbf{j}$
 @Write in the form $a\mathbf{i}+b\mathbf{j}$:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -84,7 +79,6 @@ $-\mathbf{j}$
 $3\mathbf{i}+4\mathbf{j}$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -101,7 +95,6 @@ $-2\mathbf{i}-5\mathbf{j}$
 @Write in the form $a\mathbf{i}+b\mathbf{j}$:
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -117,7 +110,6 @@ $-2\mathbf{i}-5\mathbf{j}$
 $2\mathbf{i}+j$
 *
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);

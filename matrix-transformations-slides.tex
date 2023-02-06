@@ -11,7 +11,6 @@ Reflect the vector in the line $y=x$:
 \newline
 \begin{tabular}{p{13cm}p{13cm}}
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -24,7 +23,6 @@ Reflect the vector in the line $y=x$:
 \draw [very thick, red, -stealth] (0,0)--(1,0);
 \end{tikzpicture}
 &\begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -44,7 +42,6 @@ Reflect the vector in the $x$-axis:
 \newline
 \begin{tabular}{p{13cm}p{13cm}}
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -57,7 +54,6 @@ Reflect the vector in the $x$-axis:
 \draw [very thick, red, -stealth] (0,0)--(1,0);
 \end{tikzpicture}
 &\begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -77,7 +73,6 @@ Reflect the vector in the $y$-axis:
 \newline
 \begin{tabular}{p{13cm}p{13cm}}
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -90,7 +85,6 @@ Reflect the vector in the $y$-axis:
 \draw [very thick, red, -stealth] (0,0)--(1,0);
 \end{tikzpicture}
 &\begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -110,8 +104,7 @@ Rotate the vector 90 degrees anti-clockwise:
 \newline
 \begin{tabular}{p{13cm}p{13cm}}
 \begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
-\draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
+\draw[step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
 \foreach \x in {-3,...,3}{
@@ -123,7 +116,6 @@ Rotate the vector 90 degrees anti-clockwise:
 \draw [very thick, red, -stealth] (0,0)--(1,0);
 \end{tikzpicture}
 &\begin{tikzpicture}
-\draw[thin, step=0.1cm,color=lightgray] (-4,-7) grid (4,7);
 \draw[thin, step=1cm,color=gray] (-4,-7) grid (4,7);
 \draw[thick] (-4,0)--(4,0);
 \draw[thick] (0,7)--(0,-7);
@@ -251,8 +243,7 @@ Work out the transformation matrix for a rotation of $\theta$ degrees anti-clock
 \newline
 \begin{tabular}{p{13cm}p{13cm}}
 \begin{tikzpicture}
-\draw[thin, step=0.2cm,color=lightgray] (-8,-6) grid (8,6);
-\draw[thin, step=2cm,color=gray] (-8,-6) grid (8,6);
+\draw[step=2cm,color=gray] (-8,-6) grid (8,6);
 \draw[thick] (-8,0)--(8,0);
 \draw[thick] (0,6)--(0,-6);
 \foreach \x in {-4,...,4}{
